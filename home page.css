@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style: none
+}
+
+
+.clearfix {
+    clear: both
+}
+
+
+
+<!--                                          -->
+
+header{
+    background-color: #403F3F;
+    font-size: 15px;
+    font-family: monospace;
+    clear: both;
+    position: static;
+}
+header nav{
+    width: 60%;
+    margin: 0 0 0 20%;
+    color: gainsboro;
+    overflow: hidden;
+    padding: 5px 0 3px 0;
+}
+
+@media (max-width: 500px){
+    ul li{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header li{
+    display: inline-block;
+    padding: 10px 0 0 0;
+}
+
+header li:first-of-type{
+    color: #B7B1B1;
+    padding: 10px;
+}
+
+header li:last-of-type{
+    float: right;
+    padding: 12px 0 0 0;
+}
+
+header li:last-of-type a{
+    padding: 20px 20px 10px 20px;
+}
+
+header li:first-of-type:hover, .port, .rec{
+    cursor: default;
+}
+
+
+header li a{
+    text-decoration: none;
+    list-style: none;
+    color: #B7B1B1;
+    padding: 20px 16px 10px 16px;
+    transition-property:color,background-color;
+    transition-duration:.7s;
+}
+
+header li:hover a{
+    color: white;
+    background-color: black;
+    border-bottom: 3px solid #FF9300;
+}
+
+<!--                                          -->
+
+
+
+
+.Content{
+    width: 60%;
+    margin: 0 20px 0 20%;
+}
+
+.adress{
+    margin: 5% 0 0 0;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.adress ul{
+    list-style: none;
+    display: inline;
+}
+
+.adress ul li{
+    display: inline;
+}
+
+.port{
+    color: #403F3F;
+    font-size: 30px;
+    text-shadow: 1px 2px 3px #FF9B00;
+    transition-property: text-shadow;
+    transition-duration: 0.5s;
+}
+
+.port:hover{
+    color: darkorange;
+    font-size: 30px;
+    text-shadow: 1px 1px 20px black;
+}
+
+.rec{
+    color: gray;
+    font-size: 17px;
+}
+
+<!--                                          -->
+
+.container{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.container img , .stuff img{
+    border-radius: 5px;
+    box-shadow: 5px 7px 10px gray;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+}
+
+.container img:hover , .stuff img:hover{
+    cursor: pointer;
+    box-shadow: 20px 30px 50px #FF9B00;
+}
+
+.pic1{
+   float: left;
+    width: 49%;
+}
+
+.pic2{
+    float: right;
+    width: 49%;
+}
+
+.pic-info{
+    width: 100%;
+    text-align: left;
+}
+
+.pic-info h1{
+    color: darkorange;
+}
+
+.pic-info h1 ,.pic-info p{
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+<!--                                          -->
+
+.information{
+    height: auto;
+    background-color: lightskyblue;
+    padding: 3%;
+}
+
+.stuff{
+    width: 20%;
+    text-align: center;
+    float: left;
+    padding-right: 4%;
+}
+
+.stuff h1 , .stuff p{
+    padding: 3%;
+    font-family: cursive;
+}
+
+.stuff img{
+    border-radius: 100%;
+}
+
+.stuff h1{
+    color: darkorange;
+}
+
+.stuff p{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.stuff button{
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background:blue;
+    border: 0px solid ;
+    padding: 2%;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px gray;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.stuff button:hover{
+    cursor: pointer;
+    background-color: darkorange;
+    color: black;
+    box-shadow: 1px 1px 20px black;
+}
+
+.stuff button:active{
+    
+  }
+
+.stuff button:focus{
+     outline: none;
+  }
+
+
+<!--                                          -->
+
+footer p{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2%;
+    text-shadow: 2px 5px 5px orange;
+    background-image: url(footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 1px 2px 3px #FF9B00;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+footer p:hover{
+    cursor: pointer;
+    color: darkorange;
+    text-shadow: 1px 1px 20px black;;
+}
